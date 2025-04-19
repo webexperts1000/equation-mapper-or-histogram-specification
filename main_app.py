@@ -3,7 +3,7 @@ from histogram_tool import histogram_tool_ui
 from equation_tool import equation_tool_ui
 
 st.set_page_config(page_title="Image Toolbox", layout="wide")
-st.title("🧰 Image Processing Toolbox")
+st.title("🧰 Digital Image Processing")
 
 # Sidebar navigation
 tool = st.sidebar.radio("Choose a tool:", ["🧮 Equation Mapper", "📊 Histogram Specification"])
